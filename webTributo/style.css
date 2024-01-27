@@ -109,7 +109,7 @@ footer div p {
   padding: 0;
   text-align: center;
   color: black;
-  line-height: 1.1px;
+  line-height: 1.1rem;
 }
 footer div p:hover {
   color: var(--blanco, white);
