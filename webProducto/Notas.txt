@@ -1,0 +1,69 @@
+Proyecto #3: Pagina de venta de producto
+
+Tenemos que hacer una pagina para vender un producto, mi producto van a ser libros, ya que actualmente estoy leyendo bastante.
+
+Vamos a aprovechar las instrucciones que nos da freeCodeCamp para hacer esta pagina, que son las siguientes:
+
+1-■ Tu página de inicio del producto debe tener un elemento header con el correspondiente id="header"
+
+    Solucion: Vamos a crear un header con id=header, donde probablemente vamos a poner el nombre de nuestro e-comerce de venta de libros.
+
+2-■ Puedes ver una imagen dentro del elemento header con el correspondiente id="header-img" (Un logotipo sería una buena imagen aquí)
+
+    Solucion: Vamos a colocar un img con id=header-img, dentro de el probablemente va a estar nuestro logo del e-commerce. Y al lado su nombre dentro de un h1 probablemente.
+
+3-■ Dentro del elemento #header puedes ver un elemento nav con el correspondiente id="nav-bar".
+
+    Solucion: Dentro del header tambien colocaremos un nav con id=nav-bar.
+
+4-■ Puedes ver al menos tres elementos que se puede hacer clic dentro del elemento nav, cada uno con la clase nav-link.
+
+    Solucion: Dentro del nav, colocaremos por lo menos 3 elemento a, cada uno con la clase=nav-link.
+
+5- Cuando haces clic en un botón .nav-link en el elemento nav se te llevará a la sección correspondiente de la página de inicio.
+
+    Solucion: A los elementos a colocados en el punto anterior, les pondremos un href para que el usuario se pueda desplazar por la pagina.
+
+6-■ Puedes ver un vídeo de producto incrustado con id="video"
+
+    Solucion: Insertamos una etiqueta video, con el id=video. Podemos utilizar algun video de libros o bibliotecas.
+
+7-■ Tu página de inicio tiene un elemento form con un id="form" correspondiente.
+
+    Solucion: Creamos una etiqueta form con un id=form.
+
+8-■ Dentro del formulario, hay un campo input con id="email", donde puedes ingresar tu correo electrónico.
+
+    Solucion: Agregamos una etiqueta input de type=email, con un id=email.
+
+9-■ El campo de entrada #email debe tener un marcador de texto para que los usuarios sepan para qué sirve este campo.
+
+    Solucion: Le colocamos al input=email un placeholder que indique al usuario que coloque su mail.
+
+10-■ El campo de entrada #email usa validación HTML5 para confirmar que el texto ingresado sea una dirección de email
+
+    Solucion: Al especificar el tipo email, se soluciona esto.  Tambien le colocaremos el atributo required, asi no puede enviar el formulario sin completar.
+
+11-■ Dentro del formulario, hay un input de tipo submit (enviar) con su correspondiente id="submit"
+
+    Solucion: Colocamos un boton de type=submit, con su id=submit.
+
+12-■ Cuando haces clic en el elemento #submit, el email es enviado a una página web (Utiliza esta URL de pruebas: https://www.freecodecamp.com/email-submit)
+
+    Solucion: En el atributo action del form colocaremos la url mencionada anteriormente.
+
+13- La barra de navegación siempre debe estar en la parte superior del viewport
+
+    Solucion: Utilizaremos un position fixed en el header, left=0 top=0. Para que el header siempre quede en la parte superior de la pantalla.
+
+14- Tu página de inicio de producto debe tener al menos una consulta de medios
+
+    Solucion: Seguramente al realizar la pagina con la metodologia "Mobile first" Tendremos que usar mediaqueries. Asi que quedaria solucionado.
+
+15- Tu página de inicio de producto debe utillizar el flexbox CSS al menos una vez
+
+    Solucion: Para reordenar el nav de una manera responsive prolija, utilizaremos flexbox.
+
+Nota: Asegúrete de agregar <link rel="stylesheet" href="styles.css"> en tu HTML para enlazar tu hoja de estilos y aplicar tu CSS
+
+

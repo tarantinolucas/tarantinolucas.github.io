@@ -1,0 +1,136 @@
+:root {
+  font-family: "Montserrat", sans-serif;
+  --blanco: #f4f4f2;
+  --gris-claro: #e8e8e8;
+  --gris-medio: #bbbfca;
+  --gris-oscuro: #495464;
+  text-align: center;
+  line-height: 1.8rem;
+  scroll-behavior: smooth;
+}
+body {
+  margin: 0;
+}
+#main {
+  background-color: var(--gris-claro);
+  padding: 40px 20px 0 20px;
+}
+#title {
+  font-size: 2.5rem;
+}
+p {
+  font-weight: lighter;
+}
+#img-div {
+  background-color: white;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 0px;
+}
+#image {
+  display: block;
+  width: 100%;
+  max-width: 1024px;
+  height: auto;
+  border-radius: 10px;
+  margin: auto;
+}
+#img-caption {
+  margin: 25px 10px 10px 10px;
+  font-weight: lighter;
+  font-size: 0.9rem;
+}
+#tribute-info {
+  max-width: 500px;
+  padding: 15px;
+  margin: 60px auto;
+}
+h3 {
+  font-size: 1.1rem;
+  margin-bottom: 60px;
+}
+ul {
+  padding: 0 0 0 35px;
+}
+#tribute-info li {
+  text-align: left;
+  margin: 25px 0px;
+}
+#frase {
+  text-align: justify;
+  font-size: 0.9rem;
+  margin-top: 50px;
+}
+#tribute-link {
+  font-size: 1.1rem;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+#tribute-link a {
+  color: blue;
+}
+#tribute-link a:hover {
+  color: var(--gris-oscuro, gray);
+}
+
+/* footer */
+footer {
+  background-color: var(--gris-claro, white);
+}
+footer p {
+  font-size: 0.9rem;
+  font-weight: 500;
+  margin: 0;
+  padding: 100px 10px 5px 0;
+  text-align: right;
+  color: var(--gris-oscuro, gray);
+}
+footer p a {
+  color: var(--gris-oscuro, gray);
+}
+footer p a:hover {
+  color: orange;
+}
+footer div {
+  display: flex;
+  align-items: center;
+  position: fixed;
+  bottom: 10px;
+  left: 10px;
+  width: 75px;
+  height: 75px;
+  background-color: var(--gris-medio, orange);
+  opacity: 0.9;
+  border: 2px solid var(--gris-oscuro);
+  border-radius: 50%;
+  box-shadow: 7px 7px 20px 0px rgba(0, 0, 0, 0.45);
+}
+footer div p {
+  padding: 0;
+  text-align: center;
+  color: black;
+  line-height: 1.1px;
+}
+footer div p:hover {
+  color: var(--blanco, white);
+}
+footer a {
+  text-decoration: none;
+}
+
+@media (min-width: 460px) {
+  body {
+    padding: 30px 10px 10px 10px;
+  }
+  main {
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+  }
+  footer {
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+  }
+  #title {
+    font-size: 3.5rem;
+  }
+}

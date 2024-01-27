@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="es-AR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Documentación HTML</title>
+    <!-- ICONO PESTAÑA -->
+    <link rel="shortcut icon" href="./img/html.png" type="image/x-icon" />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <!-- HTML -->
+  <body>
+    <!-- HEADER -->
+    <header>
+      <nav id="nav-bar">
+        <div id="navbar-logo">
+          <h1>HTML 5</h1>
+          <img src="./img/html.png" alt="Icono HTML 5" />
+        </div>
+        <div id="navbar-links">
+          <ul>
+            <li>
+              <a class="nav-link" href="#Introduccion_a_HTML"
+                >Introducción a HTML</a
+              >
+            </li>
+            <li>
+              <a class="nav-link" href="#Editores_HTML">Editores HTML</a>
+            </li>
+            <li>
+              <a class="nav-link" href="#HTML_Basico">HTML Básico</a>
+            </li>
+            <li>
+              <a class="nav-link" href="#Elementos_HTML">Elementos HTML</a>
+            </li>
+            <li>
+              <a class="nav-link" href="#Atributos_HTML">Atributos HTML</a>
+            </li>
+            <li>
+              <a class="nav-link" href="#Referencia">Referencia</a>
+            </li>
+            <li>
+              <a class="nav-link" href="#Contacto">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <!-- MAIN -->
+    <main id="main-doc">
+      <!-- SECCION 1 -->
+      <section class="main-section">
+        <header id="Introduccion_a_HTML"><h2>Introducción a HTML</h2></header>
+        <p>HTML es el lenguaje de marcado estándar para crear páginas web.</p>
+        <h4>¿Que es HTML?</h4>
+        <ul>
+          <li>
+            <strong> HTML</strong> significa lenguaje de marcado de hipertexto
+          </li>
+          <li>
+            <strong> HTML</strong> es el lenguaje de marcado estándar para crear
+            páginas web.
+          </li>
+          <li>
+            <strong> HTML</strong> describe la estructura de una página Web
+          </li>
+          <li><strong> HTML</strong> consta de una serie de elementos</li>
+          <li>
+            Los elementos<strong> HTML</strong> le dicen al navegador cómo
+            mostrar el contenido
+          </li>
+          <li>
+            Los elementos<strong> HTML</strong> etiquetan piezas de contenido
+            como "este es un encabezado", "este es un párrafo", "este es un
+            enlace", etc.
+          </li>
+        </ul>
+        <h4>Un documento HTML simple</h4>
+        <h5>Ejemplo</h5>
+        <div class="div-code">
+          <code>
+            &lt!DOCTYPE html> <br />
+            <br />
+            &lthtml> <br />
+            <br />
+            &lthead> <br />
+            &lttitle> <strong>Titulo de pagina</strong> &lt/title> <br />
+            &lt/head> <br />
+            <br />
+            &ltbody> <br />
+            &lth1><strong> Mi primer titulo </strong>&lt/h1> <br />
+            &ltp><strong> Mi primer párrafo. </strong>&lt/p> <br />
+            &lt/body> <br />
+            <br />
+            &lt/html>
+          </code>
+        </div>
+      </section>
+      <!-- SECCION 2 -->
+      <section class="main-section">
+        <header id="Editores_HTML"><h2>Editores HTML</h2></header>
+        <p>
+          Un simple editor de texto es todo lo que necesita para aprender HTML.
+        </p>
+        <h4>Aprenda HTML usando el Bloc de notas o TextEdit</h4>
+        <p>
+          Las páginas web se pueden crear y modificar utilizando editores HTML
+          profesionales. Sin embargo, para aprender HTML recomendamos un editor
+          de texto simple como Notepad (PC) o TextEdit (Mac). Creemos que usar
+          un editor de texto simple es una buena manera de aprender HTML. Siga
+          los pasos a continuación para crear su primera página web con Notepad
+          o TextEdit.
+        </p>
+        <h4>Requisitos necesarios</h4>
+        <p>
+          Usted solo necesitas algunas cosas para comenzar su camino como
+          desarrollador.
+        </p>
+        <ul>
+          <li>Un ordenador con sistema operativo Windows, Linux, Mac, Etc.</li>
+          <li>Y muchas ganas de aprender y crear soluciones practicas!</li>
+        </ul>
+        <!-- Paso 1 Windows -->
+        <h4>Paso 1: Abra el Bloc de notas (Windows)</h4>
+        <p>
+          <strong>Windows 8 o posterior:</strong> <br />
+          <br />
+
+          Abra la <strong>pantalla</strong> de inicio (el símbolo de la ventana
+          en la parte inferior izquierda de su pantalla). Escribe
+          <strong>Bloc</strong> de notas. <br />
+          <br />
+
+          <strong>Windows 7 o anterior:</strong> <br />
+          <br />
+
+          Abra <strong>Inicio > Programas > Accesorios > Bloc de notas</strong>
+        </p>
+        <!-- Paso 1 MAC -->
+        <h4>Paso 1: abre TextEdit (Mac)</h4>
+        <p>
+          Abre <strong>Finder > Aplicaciones > TextEdit</strong> <br />
+          <br />
+
+          También cambie algunas preferencias para que la aplicación guarde los
+          archivos correctamente. En
+          <strong>Preferencias > Formato ></strong> elija
+          <strong>"Texto sin formato"</strong> <br /><br />
+
+          Luego, en "Abrir y guardar", marque la casilla que dice "Mostrar
+          archivos HTML como código HTML en lugar de texto formateado".
+          <br /><br /><strong
+            >Luego abra un nuevo documento para colocar el código.</strong
+          >
+        </p>
+        <!-- Paso 2 -->
+        <h4>Paso 2: escribir algo de HTML</h4>
+        <p>
+          Escriba o copie el siguiente código HTML en el Bloc de notas o
+          TextEdit.
+        </p>
+        <div class="div-code">
+          <code>
+            &lt!DOCTYPE html&gt <br />
+            <br />
+            &lthtml> <br />
+            <br />
+            &lthead> <br />
+            &lttitle> <strong>Titulo de pagina</strong> &lt/title> <br />
+            &lt/head> <br />
+            <br />
+            &ltbody> <br />
+            &lth1><strong> Mi primer titulo </strong>&lt/h1> <br />
+            &ltp><strong> Mi primer párrafo. </strong>&lt/p> <br />
+            &lt/body> <br />
+            <br />
+            &lt/html>
+          </code>
+        </div>
+        <p>Debería quedar algo como esto...</p>
+        <img
+          src="./img/notepad-section-2.png"
+          alt="Imagen del Bloc de notas con HTML basico escrito"
+        />
+        <!-- Paso 3 -->
+        <h4>Paso 3: Guarde la pagina HTML</h4>
+        <p>
+          Guarde el archivo en su computadora. Seleccione
+          <strong>Archivo > Guardar como</strong> en el menú Bloc de notas.
+          <br /><br />
+
+          Nombre el archivo <strong>"index.htm"</strong> y establezca la
+          codificación en <strong>UTF-8</strong> (que es la codificación
+          preferida para los archivos HTML).
+        </p>
+        <img
+          src="./img/saveas-section-2.png"
+          alt="Imagen de como guardar un archivo creado"
+        />
+        <!-- Paso 4 -->
+        <h4>Paso 4: Vea la pagina HTML en su navegador</h4>
+        <p>
+          Abra el archivo HTML guardado en su navegador favorito (haga doble
+          clic en el archivo o haga clic con el botón derecho y elija "Abrir
+          con"). <br /><br />
+
+          El resultado se parecerá mucho a esto:
+        </p>
+        <img
+          src="./img/page-example-section-2.png"
+          alt="Imagen de la pagina de ejemplo"
+        />
+      </section>
+      <!-- SECCION 3 -->
+      <section class="main-section">
+        <header id="HTML_Basico"><h2>HTML Básico</h2></header>
+        <h4>Ejemplos básicos de HTML</h4>
+        <p>
+          En este capítulo mostraremos algunos ejemplos básicos de HTML.
+          <br /><br />
+          No se preocupe si usamos etiquetas que aún no conoce.
+        </p>
+        <h4>Documentos HTML</h4>
+        <p>
+          Todos los documentos HTML deben comenzar con una declaración de tipo
+          de documento: <code>&lt!DOCTYPE html></code>. <br /><br />
+
+          El documento HTML en sí comienza <code>&lthtml></code> y termina con
+          <code>&lt/html></code>. <br /><br />
+          La parte visible del documento HTML está entre &ltbody> y &lt/body>.
+        </p>
+        <div class="div-code">
+          <h5>Ejemplo</h5>
+          <code>
+            &lt!DOCTYPE html&gt <br />
+            <br />
+            &lthtml> <br />
+            <br />
+            &lthead> <br />
+            &lttitle> <strong>Titulo de pagina</strong> &lt/title> <br />
+            &lt/head> <br />
+            <br />
+            &ltbody> <br />
+            &lth1><strong> Mi primer titulo </strong>&lt/h1> <br />
+            &ltp><strong> Mi primer párrafo. </strong>&lt/p> <br />
+            &lt/body> <br />
+            <br />
+            &lt/html>
+          </code>
+        </div>
+        <h4>¿Cómo ver la fuente HTML?</h4>
+        <p>
+          ¿Alguna vez has visto una página web y te has preguntado "¡Oye! ¿Cómo
+          hicieron eso?
+        </p>
+        <h4>Ver código fuente HTML</h4>
+        <p>
+          Haga clic derecho en una página HTML y seleccione "Ver código fuente"
+          (en Chrome) o "Ver código fuente" (en Edge), o similar en otros
+          navegadores. Esto abrirá una ventana que contiene el código fuente
+          HTML de la página.
+        </p>
+        <h4>inspeccionar un elemento HTML</h4>
+        <p>
+          Haga clic derecho en una página HTML y seleccione "Ver código fuente"
+          (en Chrome) o "Ver código fuente" (en Edge), o similar en otros
+          navegadores. Esto abrirá una ventana que contiene el código fuente
+          HTML de la página.
+        </p>
+      </section>
+      <!-- SECCION 4 -->
+      <section class="main-section">
+        <header id="Elementos_HTML"><h2>Elementos HTML</h2></header>
+        <p>
+          Un elemento HTML se define mediante una etiqueta de inicio, algo de
+          contenido y una etiqueta de finalización.
+        </p>
+        <h4>Elementos HTML</h4>
+        <p>
+          <strong>El elemento</strong> HTML es todo, desde la etiqueta de inicio
+          hasta la etiqueta final: <br /><br />
+          <code>&lth1> Mi primer encabezado &lt /h1></code>
+        </p>
+
+        <p>
+          La etiqueta de apertura seria: <code>&lth1></code> <br /><br />
+          El contenido seria: <strong>"Mi primer encabezado"</strong>
+          <br /><br />
+          Y la etiqueta de cierre seria: <code>&lt /h1></code>
+        </p>
+        <h4>Elementos HTML anidados</h4>
+        <p>
+          Los elementos HTML se pueden anidar (esto significa que los elementos
+          pueden contener otros elementos). Todos los documentos HTML constan de
+          elementos HTML anidados. <br /><br />
+          El siguiente ejemplo contiene cuatro elementos HTML anidados (<code
+            >&lthtml>, &ltbody>, &lth1> y &ltp></code
+          >)
+        </p>
+        <h5>Ejemplo</h5>
+        <div class="div-code">
+          <code>
+            &lt!DOCTYPE html&gt <br />
+            <br />
+            &lthtml> <br />
+            <br />
+            &lthead> <br />
+            &lttitle> <strong>Titulo de pagina</strong> &lt/title> <br />
+            &lt/head> <br />
+            <br />
+            &ltbody> <br />
+            &lth1><strong> Mi primer titulo </strong>&lt/h1> <br />
+            &ltp><strong> Mi primer párrafo. </strong>&lt/p> <br />
+            &lt/body> <br />
+            <br />
+            &lt/html>
+          </code>
+        </div>
+      </section>
+      <!-- SECCION 5 -->
+      <section class="main-section">
+        <header id="Atributos_HTML"><h2>Atributos HTML</h2></header>
+        <p>
+          Los atributos HTML proporcionan información adicional sobre los
+          elementos HTML.
+        </p>
+        <h4>Atributos HTML</h4>
+        <ul>
+          <li>
+            Todos los elementos HTML pueden tener <strong>atributos</strong>.
+          </li>
+          <li>
+            Los atributos proporcionan
+            <strong>información adicional</strong> sobre los elementos.
+          </li>
+          <li>
+            Los atributos siempre se especifican en
+            <strong>la etiqueta de inicio</strong>.
+          </li>
+          <li>
+            Los atributos generalmente vienen en pares de nombre/valor como:
+            <strong>nombre="valor"</strong>.
+          </li>
+        </ul>
+        <h4>El atributo src</h4>
+        <p>
+          La <code>&ltimg> </code> etiqueta se utiliza para incrustar una imagen
+          en una página HTML. El <code>src</code> atributo especifica la ruta a
+          la imagen que se va a mostrar:
+        </p>
+        <h5>Ejemplo</h5>
+        <div class="div-code">
+          <code> &ltimg src="imagen.jpg" alt="Es una imagen"> </code>
+        </div>
+        <p>
+          Hay dos formas de especificar la URL en el src atributo: <br /><br />
+
+          <strong>1. URL absoluta:</strong> enlaces a una imagen externa alojada
+          en otro sitio web. Ejemplo:
+          src="https://www.pagina-de-internet.com/images/imagen.jpg".
+          <br /><br />
+
+          <strong>Notas:</strong> las imágenes externas pueden estar protegidas
+          por derechos de autor. Si no obtiene permiso para usarlo, es posible
+          que esté violando las leyes de derechos de autor. Además, no puede
+          controlar imágenes externas; se puede quitar o cambiar repentinamente.
+          <br /><br />
+
+          <strong>2. URL relativa:</strong> Enlaces a una imagen alojada en el
+          sitio web. Aquí, la URL no incluye el nombre de dominio. Si la URL
+          comienza sin una barra inclinada, será relativa a la página actual.
+          Ejemplo: src="imagen.jpg". Si la URL comienza con una barra inclinada,
+          será relativa al dominio. Ejemplo: src="/images/imagen.jpg".
+          <br /><br />
+
+          <strong>Sugerencia:</strong> Casi siempre es mejor usar URL relativas.
+          No se romperán si cambias de dominio.
+        </p>
+      </section>
+      <h2 id="Referencia">Referencia</h2>
+      <p id="reference-p">
+        Toda la documentación obtenida y volcada en esta pagina fue tomada de
+        <a target="_blank" href="https://www.w3schools.com/">W3 Schools</a>.
+        <br />
+        Para obtener toda la información acerca de HTML, y otras tecnologías de
+        desarrollo de software, consulta su pagina. <br />
+        <br />
+        Los iconos utilizados son de
+        <a target="_blank" href="https://www.flaticon.com/">flaticon</a>.
+      </p>
+    </main>
+    <!-- FOOTER -->
+    <footer>
+      <h2 id="Contacto">Contacto</h2>
+      <div>
+        <a href="#top">
+          <p>Volver arriba!</p>
+        </a>
+      </div>
+      <p>
+        Creado por
+        <a target="_blank" href="https://www.linkedin.com/in/tarantino-lucas/"
+          >tarantinolucas®</a
+        >.
+      </p>
+    </footer>
+  </body>
+</html>
+
+<!-- Created by tarantinolucas®. -->

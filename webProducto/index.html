@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="es-AR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Venta de Libros</title>
+    <!-- ICONO PESTAÑA -->
+    <link rel="shortcut icon" href="./img/buho-lector.png" type="image/x-icon">
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <!-- HTML -->
+  <body>
+    <!-- HEADER -->
+    <header id="header">
+      <!-- DIV-LOGO -->
+      <div id="div-logo">
+        <a href="#">
+          <img
+            src="./img/buho-lector.png"
+            alt="Book Store Logo"
+            id="header-img"
+          />
+          <h1>Book Store</h1>
+        </a>
+      </div>
+      <!-- NAV-BAR -->
+      <nav id="nav-bar">
+        <a href="#div-info" class="nav-link">Caracteristicas</a>
+        <a href="#section-store" class="nav-link">Precios</a>
+        <a href="#footer" class="nav-link">Contacto</a>
+      </nav>
+    </header>
+
+    <!-- MAIN -->
+    <main>
+      <!-- SECCION SUBSCRIPCION NEWSLETTER -->
+      <div id="div-newsletter">
+        <h2>
+          Las ultimas novedades sobre los libros bestseller en todo el mundo!
+        </h2>
+        <p>
+          Subscribite a nuestro newsletter y recibi las ultimas actualizaciones
+          sobre los libros del momento! ES GRATIS!!!
+        </p>
+        <form action="mailto: tarantinolucas@hotmail.com" id="form">
+          <label for="email"></label>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Ingrese su dirección correo electrónico..."
+            required
+          />
+          <input class="button" type="submit" id="submit" value="Subscribirse!"></input>
+        </form>
+      </div>
+      <!-- SECCION INFO -->
+      <div id="div-info">
+        <div class="info-item">
+          <img src="./img/flame.png" alt="Certificacion de conformidad" />
+          <div class="info-item-text">
+            <h3>Materiales de primera calidad</h3>
+            <p>
+              Nuestros libros utilizan las hojas de arbol de caña brasilera de
+              primera calidad. Esto garantiza y aumenta su longevidad, ademas
+              cada libro esta manufacturado manualmente.
+            </p>
+          </div>
+        </div>
+        <div class="info-item">
+          <img
+            src="./img/delivery-truck.png"
+            alt="Certificacion de velocidad"
+          />
+          <div class="info-item-text">
+            <h3>Envio rapido</h3>
+            <p>
+              Nos aseguramos de que recibas el o los libros que elegistes tan
+              pronto como hayamos terminado de confeccionarlo, o en el caso de
+              que este en stock sera enviado el mismo dia!. Tambien
+              proporcionamos devoluciones gratuitas si no estas satisfecho con
+              el producto que recibistes.
+            </p>
+          </div>
+        </div>
+        <div class="info-item">
+          <img src="./img/quality.png" alt="Certificacion de calidad" />
+          <div class="info-item-text">
+            <h3>Seguro de calidad</h3>
+            <p>
+              Por cada compra que realices, nos aseguramos de que no haya daños
+              o fallas en el productor enviado. Revisamos hoja por hoja, cada
+              libro que confeccionamos, bajo estrictas normas de calidad y
+              confeccion.
+            </p>
+          </div>
+        </div>
+      </div>
+      <!-- VIDEO -->
+      <div id="div-video">
+        <p>
+          Para que acompañes la lectura de los libros que adquiristes, te
+          dejamos la mejor musica relajante para concentrarte y que el momento
+          de lectura se vuelva especial!
+        </p>
+        <iframe
+        id="video"
+        src="https://www.youtube.com/embed/eit2nlhDVMk?si=Mae-ZEXgXZA8I51a"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+      ></iframe>
+      </div>
+      <!-- SECCION STORE -->
+      <section id="section-store">
+        <div class="store-item">
+          <h5>Padre rico, Padre pobre</h5>
+          <img
+            src="./img/padre-rico-padre-pobre-book.jpg"
+            alt="Libro Padre Rico, Padre pobre"
+          />
+          <p class="item-autor">Autor: Robert Kiyosaki</p>
+          <p class="item-price">$3199</p>
+          <a
+            class="button"
+            href="https://es.wikipedia.org/wiki/Robert_Kiyosaki"
+            target="_blank"
+            >COMPRAR</a
+          >
+        </div>
+        <div class="store-item">
+          <h5>Atomic Habits</h5>
+          <img src="./img/atomic-habits-book.jpg" alt="Libro Atomic Habits" />
+          <p class="item-autor">Autor: James Clear</p>
+          <p class="item-price">$3299</p>
+          <a class="button" href="https://jamesclear.com/" target="_blank"
+            >COMPRAR</a
+          >
+        </div>
+        <div class="store-item">
+          <h5>Piense y hagase rico</h5>
+          <img
+            src="./img/piense-y-hagase-rico-book.jpg"
+            alt="Libro Piense y hagase rico"
+          />
+          <p class="item-autor">Autor: Napoleon Hill</p>
+          <p class="item-price">$3599</p>
+          <a class="button" href="https://www.naphill.org/" target="_blank"
+            >COMPRAR</a
+          >
+        </div>
+      </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer id="footer">
+      <div>
+        <a href="#top">
+          <p>Volver arriba!</p>
+        </a>
+      </div>
+      <p>
+        Creado por
+        <a target="_blank" href="https://www.linkedin.com/in/tarantino-lucas/"
+          >tarantinolucas®</a
+        >.
+      </p>
+    </footer>
+  </body>
+</html>

@@ -1,6 +1,8 @@
-### Hola a todos! Este es mi portfolio personal de proyectos. 🙌🙌
+### Hola a todos! Bienvenidos a  mi portfolio personal de proyectos. 🙌🙌
 
 ### Les comparto el link para que puedan verlo: https://tarantinolucas.github.io/ 🚀🚀
+
+## 🌱 Actualmente estoy mejorando mis habilidades de desarrollo frontend con ReactJS.
 
 <!--
 **tarantinolucas/tarantinolucas** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.

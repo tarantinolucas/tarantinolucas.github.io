@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="es-AR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Metodos de aprendizaje</title>
+    <!-- icono pestaña -->
+    <link rel="shortcut icon" href="./img/icono-lucas.ico" type="image/x-icon">
+    <!-- css -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,200;0,500;0,700;1,200;1,500;1,700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <!-- html -->
+  <body>
+    <header>
+      <h1 id="title">Formulario de encuesta metodos de aprendizaje</h1>
+      <p id="description">
+        Gracias por tomarte el tiempo para ayudarnos a mejorar nuestra forma de
+        aprender y eneseñar. <br />Es lo que mas nos gusta!
+      </p>
+    </header>
+    <main>
+      <!-- formulario  -->
+      <form action="mailto:tarantinolucas@hotmail.com" id="survey-form">
+        <div id="form-info">
+          <!-- nombre -->
+          <label id="name-label" for="name">Nombre: </label>
+          <input
+            class="style-input"
+            type="text"
+            id="name"
+            required
+            placeholder="Ingresa tu nombre"
+          />
+          <!-- email -->
+          <label id="email-label" for="email">Correo electronico: </label>
+          <input
+            class="style-input"
+            type="email"
+            required
+            placeholder="Ingresa tu correo electronico"
+          />
+          <!-- edad -->
+          <label id="number-label" for="number">Edad: </label>
+          <input
+            class="style-input"
+            type="number"
+            min="18"
+            max="128"
+            placeholder="Ingresa tu edad"
+            required
+          />
+          <p>
+            *puedes enviar esta encuesta solo si tienes la mayoria de edad (18
+            años).
+          </p>
+        </div>
+        <!-- dropdown -->
+        <label class="p-answer" for="dropdown-label"
+          >¿Cual es tu metodo principal para estudiar o aprender sobre un nuevo
+          tema?
+        </label>
+        <select name="dropdown" id="dropdown" required class="style-input">
+          <option value="">Seleccione una opcion</option>
+          <option value="">Internet</option>
+          <option value="">Libros</option>
+          <option value="">Instituciones Educativas</option>
+          <option value="">Amigos y conocidos</option>
+          <option value="">Otro</option>
+        </select>
+        <!-- botones de radio -->
+        <div id="div-radio" class="div-radio-checkbox">
+          <p class="p-answer">
+            ¿Recomendarias el metodo seleccionado anteriormente a alguien para
+            que lo implemente?
+          </p>
+          <label for="option-yes">
+            <input
+              type="radio"
+              name="radio-options"
+              id="option-yes"
+              checked
+              value="yes"
+            />Si
+          </label>
+          <label for="option-no">
+            <input
+              type="radio"
+              name="radio-options"
+              id="option-no"
+              value="no"
+            />No
+          </label>
+          <label for="option-doubt">
+            <input
+              type="radio"
+              name="radio-options"
+              id="option-doubt"
+              value="doubt"
+            />No lo se
+          </label>
+        </div>
+        <!-- checkbox -->
+        <div id="div-checkbox" class="div-radio-checkbox">
+          <p class="p-answer">
+            ¿Cual de los siguientes libros o peliculas preferirias leer o ver?
+            (Marque todas las opciones correspondientes)
+          </p>
+          <label for="checkbox-1">
+            <input
+              type="checkbox"
+              name="checkbox-options"
+              id="checkbox-1"
+              value="checkbox-1"
+            />Tus zonas erroneas - Wayne Dyer
+          </label>
+          <label for="checkbox-2">
+            <input
+              type="checkbox"
+              name="checkbox-options"
+              id="checkbox-2"
+              value="checkbox-2"
+            />Padre rico, padre pobre - Robert Kiyosaki
+          </label>
+          <label for="checkbox-3">
+            <input
+              type="checkbox"
+              name="checkbox-options"
+              id="checkbox-3"
+              value="checkbox-3"
+            />Habitos atomicos - James Clear
+          </label>
+          <label for="checkbox-4">
+            <input
+              type="checkbox"
+              name="checkbox-options"
+              id="checkbox-4"
+              value="checkbox-4"
+            />Piensa y hazte rico - Napoleon Hill
+          </label>
+          <label for="checkbox-5">
+            <input
+              type="checkbox"
+              name="checkbox-options"
+              id="checkbox-5"
+              value="checkbox-5"
+            />En busca de la felicidad - Gabriele Muccino
+          </label>
+          <label for="checkbox-6">
+            <input
+              type="checkbox"
+              name="checkbox-options"
+              id="checkbox-6"
+              value="checkbox-6"
+            />El secreto: Atrevete a soñar - Natasha Gerasimova
+          </label>
+          <label for="checkbox-7">
+            <input
+              type="checkbox"
+              name="checkbox-options"
+              id="checkbox-7"
+              value="checkbox-7"
+            />En busca del destino - Gus Van Sant
+          </label>
+          <label for="checkbox-8">
+            <input
+              type="checkbox"
+              name="checkbox-options"
+              id="checkbox-8"
+              value="checkbox-8"
+            />Patch Adams - Tom Shadyac
+          </label>
+        </div>
+        <!-- text area -->
+        <label for="textarea" class="p-answer"
+          >¿Quieres dejarnos algun comentario o sugerencia sobre los temas que
+          te preguntamos en este formulario?
+        </label>
+        <textarea
+          name="textarea"
+          id="textarea"
+          placeholder="Escribe tu comentario aquí..."
+        ></textarea>
+        <button type="submit">Enviar</button>
+      </form>
+    </main>
+    <!-- footer -->
+    <footer>
+      <div>
+        <a href="#top">
+          <p>Volver arriba!</p>
+        </a>
+      </div>
+      <p>
+        Creado por
+        <a target="_blank" href="https://www.linkedin.com/in/tarantino-lucas/"
+          >tarantinolucas®</a
+        >.
+      </p>
+    </footer>
+  </body>
+</html>

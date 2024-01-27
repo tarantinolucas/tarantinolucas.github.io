@@ -1,0 +1,72 @@
+Proyecto #2: Formulario de encuesta
+
+Tenemos que hacer como segundo proyecto, un formulario de encuesta, en mi caso como ultimamente estoy leyendo mucho voy hacer una encuesta para enterarme cual es para la gente la mejor forma de obtener conocimietos, en principio vamos a pedir nombre, mail, años, cual es la ocupacion que tiene actualmente, que medio recomendaria para obtener conocimiento, una pregunta de si actualmente usa el metodo o medio que recomienda, cual es su genero favorito de libros, el cliente debera seleccionar entre los libros o peliculas que leyo o vio, y por ultimo le pedimos un comentario o sugerencia, y al final el boton de enviar.
+
+Vamos a aprovechar las instrucciones que nos da freeCodeCamp para hacer esta pagina, que son las siguientes:
+
+
+1-■ Debes tener un título de página en un elemento h1 con un id de title. 
+
+    Solucion: Vamos agregar un h1 con 'id=title', en nuestro caso puede ser algo asi como: "Formulario de encuesta Aprendizaje".
+
+2-■ Debes tener una pequeña explicación en un elemento p con un id de description.
+
+    Solucion: Vamos a agregar un p con la 'id=description' donde vamos a escribir algo como: "Gracias por tomarte el tiempo de ayudarnos a mejorar la enseñanza y el aprendizaje".
+
+3-■ Debes tener un elemento form con un id de survey-form.
+
+    Solucion: Agregaremos un elemento form con 'id=survey-form'.
+
+4-■ Dentro del elemento form, debes ser obligatorio (required) ingresar tu nombre en un campo de input que tenga un id de name y un type de text.
+
+    Solucion: Agregaremos una etiqueta input de 'type=text', que tenga un 'id=name' con la propiedad required, arriba de este colocaremos una etiqueta label, con el contenido 'Nombre:' para solicitar el nombre del cliente.
+
+5-■ Dentro del elemento form debe ser obligatorio (required) ingresar tu nombre en un campo de input que tenga un id de email.
+
+    Solucion: Agregaremos una etiqueta input de 'type=email', que tenga un 'id=email' con la propiedad required, arriba de este colocaremos una etiqueta label, con el contenido 'E-mail:' para solicitar el email del cliente.
+
+6-■ Si introduces un correo electrónico que no tiene el formato correcto, tú debes ver una alerta de validación en THML5.
+
+    Solucion: Colocando que el input anterior sea de tipo mail, deberia aparecer la validacion, asi que entiendo que se solucionaria, arreglando el punto anterior.
+
+7-■ Dentro de tu form, tu puedes introducir un número en un campo input que tenga un id de number.
+
+    Solucion: Agregaremos una etiqueta input de 'type=number', que tenga un 'id=number', arriba de este colocaremos una etiqueta label, con el contenido 'Edad:' para solicitar la edad del cliente en caso de que quiera proporcionarla.
+
+8-■ Si introduces un valor no numérico en la entrada de números, tú debes ver una alerta de validación en HTML5.
+
+    Solucion: Se soluciona con el punto anterior.
+
+9-■ Si introduces un número fuera del rango de la entrada de números, los cuales están definidos por los atributos min y max, debes ver una alerta de validación en HTML5.
+
+    Solucion: Agregaremos los atributos min y max al input de type number para limitar el rango de la edad de la gente que puede utilizar el formulario, se podria agregar un p con un * indicando que solo mayores de 18 años pueden responder  el formulario. 
+
+10-■ Para los campos de entrada de nombre, correo electrónico y número, podrás ver los correspondientes elementos label en el formulario, que describen el propósito de cada campo con los siguientes ids: id="name-label", id="email-label", y id="number-label".
+
+    Solucion: Le agregaremos a los inputs de nombre, email y number, sus respectivos labels con 'id=name-label', 'id=email-label' e 'id=number-label'.
+
+11-■ Para los campos de entrada de nombre, correo electrónico y número, podrás ver un texto provisional que da una descripción o instrucciones para cada campo.
+
+    Solucion: Se soluciona con los puntos anteriores. Ademas se agregara el texto de placeholder, para indicar al usuario la informacion que va en el campo de cada uno de los inputs.
+
+12-■ Dentro del elemento de formulario, debes tener un elemento desplegable select con un id de dropdown con al menos dos opciones para elegir.
+
+    Solucion: Agregaremos un elemento select, con un 'id=dropdown' con varias opciones para elegir usando la etiqueta option, aca podemos utilizar la pregunta, cual es tu metodo principal de adquirir informacion sobre algun tema puntual?
+
+13-■ Dentro del elemento de formulario, puedes seleccionar una opción de un grupo de al menos dos botones de radio que son agrupados utilizando el atributo name.
+
+    Solucion: Agregaremos un grupo de botones de radio, con el atributo name, en este caso se le va al cliente si recomienda el metodo de estudio que recomendo anteriormente.
+
+14-■ Dentro del elemento de formulario, puedes seleccionar varios campos en una serie de casillas de verificación, cada una debe tener un atributo value.
+
+    Solucion: Agregaremos un grupo de casillas checkbox con el atributo valu, y aca le diremos al cliente que elija entre algunos titulos de libros o pueden ser peliculas tambien.
+
+15-■ Dentro del elemento de formulario, se te presenta un textarea para comentarios adicionales.
+
+    Solucion: Agregaremos un textarea para que el cliente pueda dejarnos comentarios o recomendaciones adicionales sobre metodos para aprender, libros o peliculas.
+
+16-■ Dentro del elemento form, se te presenta un botón con un id de submit para enviar todas las entradas.
+
+    Solucion: Agregaremos un button de type submit para que el cliente pueda enviar toda la informacion.
+
+A comenzar!

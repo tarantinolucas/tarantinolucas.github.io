@@ -1,0 +1,235 @@
+/* ESTANDARIZACION DEL CSS */
+:root {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  box-sizing: border-box;
+  /* FONT FAMILY */
+  font-family: "Poppins", sans-serif;
+  /* COLORES PRINCIPALES  */
+  --blanco: #fdfdfd;
+  --negro: #080808;
+  --gris-claro: #ececec;
+  --gris-oscuro: #727272;
+  color: var(--negro, black);
+}
+/* HEADER */
+
+/* NAVBAR */
+
+/* NAVBAR LOGO */
+#navbar-logo {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+}
+h1 {
+  font-size: 3.5rem;
+  margin: 0 0 0 5px;
+}
+#navbar-logo img {
+  width: 45px;
+}
+/* NAVBAR LINKS */
+#navbar-links ul {
+  list-style: none;
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+  height: 110px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  border: 2px solid var(--gris-oscuro, gray);
+  border-radius: 7px;
+  max-width: 425px;
+}
+#navbar-links li {
+  border: 1px solid var(--gris-claro, lightgray);
+}
+.nav-link {
+  display: block;
+  box-sizing: border-box;
+  padding: 15px;
+  width: 100%;
+  text-decoration: none;
+  color: var(--gris-oscuro, gray);
+  font-size: 1.6rem;
+}
+.nav-link:hover {
+  background-color: var(--gris-claro, lightgray);
+  font-size: 1.8rem;
+  color: var(--negro, black);
+}
+
+/* MAIN */
+main {
+  padding: 0 20px;
+}
+h2 {
+  font-size: 2.8rem;
+  font-weight: 600;
+  margin: 45px 0 0 0;
+  border-top: 8px solid var(--gris-claro, lightgray);
+  color: var(--gris-oscuro, gray);
+}
+p {
+  font-size: 1.6rem;
+  padding-left: 15px;
+}
+h4 {
+  font-size: 2.1rem;
+  font-weight: 500;
+  margin: 0;
+  padding-top: 20px;
+}
+.main-section ul {
+  padding-left: 30px;
+  margin: 15px 0;
+}
+.main-section li {
+  font-size: 1.4rem;
+}
+h5 {
+  font-size: 1.8rem;
+  font-weight: 400;
+  margin: 10px 0 0 0;
+  color: var(--gris-oscuro, gray);
+}
+.div-code {
+  background-color: var(--gris-claro, lightgray);
+  padding: 10px;
+  border-radius: 8px;
+  margin-left: 15px;
+  max-width: 400px;
+}
+code {
+  font-size: 1.4rem;
+}
+.main-section img {
+  display: block;
+  width: 100%;
+  max-width: 550px;
+  height: auto;
+  margin: 0 auto;
+}
+p code {
+  background-color: var(--gris-claro, lightgray);
+  font-size: 1.6rem;
+}
+#reference-p a {
+  color: blue;
+}
+#reference-p a:hover {
+  color: orange;
+}
+
+/* FOOTER */
+footer {
+  margin: 0 auto;
+  padding: 0 30px;
+}
+footer p {
+  font-size: 1.7rem;
+  font-weight: 500;
+  margin: 0;
+  padding: 20px 10px 10px 0;
+  text-align: right;
+  color: var(--negro, black);
+}
+footer p a {
+  color: var(--negro, black);
+}
+footer p a:hover {
+  color: orange;
+  font-size: 1.9rem;
+  font-weight: 500;
+}
+footer div {
+  display: flex;
+  align-items: center;
+  position: fixed;
+  bottom: 6px;
+  left: 6px;
+  width: 65px;
+  height: 65px;
+  background-color: var(--gris-oscuro, gray);
+  opacity: 0.8;
+  border: 2px solid var(--gris-oscuro, gray);
+  border-radius: 50%;
+  box-shadow: 7px 7px 20px 0px rgba(0, 0, 0, 0.45);
+}
+footer div p {
+  font-size: 1.4rem;
+  font-weight: 500;
+  padding: 0;
+  text-align: center;
+  color: var(--gris-claro, lightgray);
+}
+footer div p:hover {
+  color: var(--blanco, white);
+  font-weight: 600;
+}
+footer a {
+  text-decoration: none;
+}
+
+/* MEDIA QUERIES */
+@media (min-width: 425px) {
+  main {
+    padding: 0 30px;
+  }
+}
+@media (min-width: 650px) {
+  body {
+    padding: 25px 0 0 0;
+    max-width: 1440px;
+  }
+  #nav-bar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    width: 250px;
+    height: 100%;
+    border-right: 4px solid var(--gris-oscuro, gray);
+  }
+  #navbar-links ul {
+    height: auto;
+    border: none;
+    border-radius: 0;
+  }
+  #navbar-links li {
+    border-left: none;
+    border-right: none;
+  }
+  main {
+    margin-left: 250px;
+  }
+  #Introduccion_a_HTML h2 {
+    margin-top: 0;
+  }
+  footer {
+  margin-left: 250px;
+  }
+  footer div {
+    display: none;
+  }
+  footer p {
+    text-align: left;
+  }
+}
+@media (min-width: 1440px) {
+  body {
+    margin: auto;
+    border-left: 2px solid var(--gris-claro, lightgray);
+    border-right: 2px solid var(--gris-claro, lightgray);
+  }
+}
+
+/* Created by tarantinolucas®. */

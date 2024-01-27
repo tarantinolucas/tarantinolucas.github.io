@@ -1,0 +1,44 @@
+Proyecto #1: Tributo a James Clear
+
+Ya complete el desafio en la pagina de freeCodeCamp, voy a comenzar mi proyecto real, hacer una pagina tributo a James Clear, autor del libro 'Habitos Atomicos', libro que estoy leyendo actualmente.
+
+Vamos a aprovechar las instrucciones que nos da freeCodeCamp para hacer esta pagina, que son las siguientes:
+
+1- Tu página de tributo debe tener un elemento con un correspondiente id="main", el cual contiene todos los demás elementos.
+    
+    Solucion: Creamos dentro del 'body' una etiqueta 'main' que tenga todo el contenido de la pagina. El main va a tener 'id= main'. 
+
+2- Debes ver un elemento con un id de title que contiene una cadena (por ejemplo, texto), que describa el tema de la página de tributo (por ejemplo, "Dr. Norman Borlaug").
+
+    Solucion: Dentro del 'main', creamos una etiqueta 'h1', con el nombre 'James Clear', debajo una breve descripcion de el en una etiqueta 'p'. La etiqueta 'h1' va a tener un 'id=title'.
+
+3- Debes ver ya sea un elemento figure o un elemento div con un id de img-div.
+
+    Solucion: Creamos un elemento 'figure' con el 'id=img-div', dentro del main.
+
+4- Dentro del elemento img-div, debes ver un elemento img con un correspondiente id="image".
+
+    Solucion: Dentro de 'figure' creamos una etiqueta 'img' con el 'id=image'.
+
+5- Dentro del elemento img-div, debes ver un elemento con un correspondiente id="img-caption" que contiene contenido textual que describe la imagen mostrada en img-div.
+
+    Solucion: Vamos a crear una etiqueta 'figcaption' con 'id=img-caption' debajo de la imagen para describir un poco sobre la imagen que colocamos, que tiene que ser del protagonista de la pagina. Podemos poner una imagen del libro o de James firmando libros, y comentar que es un bestseller y explicar un poco del mismo.
+
+6- Debes ver un elemento con un correspondiente id="tribute-info", que contiene contenido textual que describe el tema de la página de tributo.
+
+    Solucion: Vamos a crear una etiqueta 'section' con el 'id=tribute-info', luego anidada una etiqueta 'h2' para colocar un titulo de seccion que puede ser algo asi como 'Linea de tiempo de James Clear', debajo de este una lista desordenada, donde cada item sera un hito en un año de la vida del protagonista. Al final de todos los hitos, agregamos una frase motivadora de james o de alguien que haya dicho una frase de el.
+
+7- Debes ver un elemento con un correspondiente id="tribute-link", que enlaza a un sitio externo que contiene información adicional sobre el tema de la página de tributo. CONSEJO: Debes dar a tu elemento un atributo de target y establecerlo a _blank para que tu enlace se abra en una nueva pestaña.
+
+    Solucion: Dentro del main creamos una etiqueta 'p' donde invitamos al cliente que si quiere saber mas sobre el protagonista acceda desde el link. El link lo vamos a generar con una etiqueta 'a' con 'id= tribute-link'.
+
+8- Tu #image debe usar las propiedades max-width y height para redimensionar, de forma responsiva, relativo al ancho de su elemento padre, sin exceder su tamaño original.
+9- Tu elemento img debe estar centrado dentro de su elemento padre.
+
+    Solucion: Hacemos la imagen responsiva usando sobre ella las propiedades necesarias, en este caso 'display: block' luego 'max-width: 100%' y 'margin: auto' para centrarla.
+
+Nota: Asegúrate de agregar <link rel="stylesheet" href="styles.css"> en tu HTML para enlazar tu hoja de estilos y aplicar tu CSS
+
+    Solucion: Vamos a trabajar con CSS en un archivo externo asi que vamos a generar el link.
+
+Comenzamos a trabajar!

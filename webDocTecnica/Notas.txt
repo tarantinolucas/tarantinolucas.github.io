@@ -1,0 +1,74 @@
+<----- NOTAS DEL PROYECTO ----->
+
+Vamos a comenzar con el cuarto proyecto que nos ofrece freeCodeCamp del curso de 'Responsive Design', que es una 'Pagina de documentacion tecnica'.
+
+Para eso primero vamos a resolver las consignas que nos dan, que son las siguientes:
+
+Objetivo: Crear una aplicación que sea funcionalmente similar a https://technical-documentation-page.freecodecamp.rocks
+
+Condiciones a cumplir:
+
+1-■ Puedes ver un elemento main con un id="main-doc" correspondiente, que contiene el contenido principal de la página (documentación técnica).
+
+    Solucion: Vamos a crear un main con el 'id=main-doc' que contenga el contenido principal de la pagina.
+
+2-■ Dentro del elemento #main-doc, puedes ver varios elementos de section, cada uno con una clase de main-section. Debe haber un mínimo de cinco.
+
+    Solucion: Vamos a crear al menos 5 section dentro de #main-doc, con la clase '.main-section'.
+
+3-■ El primer elemento dentro de cada .main-section debe ser un elemento header, que contiene texto que describe el tema de esa sección.
+
+    Solucion: en cada .main-section vamos a crear como primer elemento un header que va a ser el titulo del texto que se describe en cada seccion (tengo dudas de que haya que usar mas de un header por pagina, no pareciera una buena practica.).
+
+4-■ Cada elemento section con la clase de main-section también debe tener un id que corresponda con el texto de cada header contenido en él. Cualquier espacio debe ser reemplazado por guiones bajos (p.ej. La sección que contiene el encabezado "JavaScript y Java" debe tener un id="JavaScript_and_Java") correspondiente
+
+    Solucion:  Se colocara un id en cada .main-section con el texto que se utilizo en los header de los mismos. Como los id no admiten espacios, estos deben ser reemplazados con guiones bajos '_'.
+
+5-■ Los elementos .main-section deben contener al menos diez elementos p en total (no cada uno).
+
+    Solucion: Se coloca en cada .main-section algunos 'p', debe haber al menos 10 distribuidos por todos los .main-section.
+
+6-■ Los elementos .main-section deben contener al menos cinco elementos code en total (no cada uno).
+
+    Solucion: Se coloca en cada .main-section algunos 'code', deben haber al menos 5 distribuidos por todos los .main-section.
+
+7-■ Los elementos .main-section deben contener al menos cinco elementos li en total (no cada uno).
+
+    Solucion: Se coloca en cada .main-section algunos 'li' (deberiamos colocarlos en un 'ol' o 'ul'), debe haber al menos 5 distribuidos por todos los .main-section.
+
+8-■ Puedes ver un elemento nav con un correspondiente id="navbar".
+
+    Solucion: Creamos un nav, con el id=navbar.
+
+9-■ El elemento de la barra de navegación debe contener un elemento de header que contiene texto que describe el tema de la documentación técnica
+
+    Solucion: En el #navbar, creamos un header, dentro de el un h1, que describa el tema del que se trata la documentacion tecnica.
+
+10-■ Además, la barra de navegación debe contener elementos de enlace (a) con la clase de nav-link. Debe haber uno para cada elemento con la clase main-section
+
+    Solucion: Colocaremos probablemente una ul, donde cada li contenga un elemento a, cada elemento a, tendra la clase .nav-link, el contenido de estos elementos, sera el titulo de cada header en cada .main-section.
+
+11-■ El elemento header en la #navbar debe venir antes de cualquier enlace (a) en la barra de navegación.
+
+    Solucion: Colocaremos el elemento header de la #nav-bar, arriba de cualquier 'a' que haya en la 'nav'.
+
+12-■ Cada elemento con la clase de nav-link debe contener texto que corresponda al texto header dentro de cada section (p.ej. Si tienes una sección/encabezado "Hola mundo", tu barra de navegación debe tener un elemento que contenga el texto "Hola mundo").
+
+    Solucion: Se resuelve con el punto 10-.
+
+13-■ Cuando hagas clic en un elemento de la barra de navegación, la página debe navegar a la sección correspondiente del elemento main-doc (p. ej. Si haces clic en un elemento nav-link que contiene el texto "Hola mundo", la página navega a un elemento section con ese id y contiene el encabezado correspondiente).
+
+    Solucion: En cada href de los .nav-link colocaremos el #id del header de la .main-section que corresponda, para que cuando se haga click en el link, la pagina nos muestre la informacion deseada.
+
+14-■ En dispositivos de tamaño normal (portátiles, escritorios), el elemento con id="navbar" debe mostrarse en el lado izquierdo de la pantalla y siempre debe ser visible para el usuario
+
+    Solucion: Para dispositivos portatiles o mayores el elemento navbar, se colocara del lado izquierdo de la pantalla.
+
+15-■ Tu documentación técnica debe usar al menos una consulta de medios
+
+    Solucion: Para hacer la pagina Responsive, usaremos mediaqueries, seguramente al querer resolver el punto 14, solucinaremos este punto.
+
+
+A CREAR SOLUCIONES!!!
+
+Created by tarantinolucas®.
