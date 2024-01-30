@@ -2,7 +2,7 @@
 
 ### Les comparto el link para que puedan verlo: https://tarantinolucas.github.io/ 🚀🚀
 
-## 🌱 Actualmente estoy mejorando mis habilidades de desarrollo frontend con ReactJS.
+## 🌱 Actualmente estoy mejorando mis habilidades de desarrollo frontend con Javascript y ReactJS.
 
 <!--
 **tarantinolucas/tarantinolucas** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
