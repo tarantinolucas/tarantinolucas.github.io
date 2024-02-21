@@ -1,5 +1,5 @@
 /* ESTANDARIZACION DEL CSS */
-@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&display=swap");
 
 :root {
   font-size: 62.5%;
@@ -9,7 +9,7 @@
 body {
   margin: 0;
   box-sizing: border-box;
-  font-family: "Roboto", sans-serif;
+  font-family: "Kode Mono", monospace;
   --rojo: #bf1a2f;
   --azul: #32436b;
   --negro: #090612;
@@ -137,10 +137,11 @@ h2 {
 .project-container p {
   font-size: 1.8rem;
   color: var(--blanco, white);
-  font-weight: 200;
+  font-weight: 400;
   text-align: center;
   margin: 15px 0 10px 0;
 }
+
 .project-container a:hover > .project-title {
   color: var(--rojo, red);
   font-size: 2rem;
