@@ -47,13 +47,14 @@ header li {
 }
 header a {
   color: var(--blanco, white);
-  font-size: 2.2rem;
+  font-size: 1.6rem;
   font-weight: 200;
 }
 header a:hover {
   color: white;
-  font-size: 2.3rem;
+  font-size: 1.8rem;
   font-weight: 400;
+  transition: ease 500ms;
 }
 /* MAIN */
 main {
@@ -238,6 +239,14 @@ footer p a:hover {
   header ul {
     justify-content: end;
   }
+
+  header a {
+    font-size: 2rem;
+  }
+
+  header a:hover {
+    font-size: 2.4rem;
+  }
   #contact-links li {
     margin: 0 25px 10px 25px;
   }
@@ -264,7 +273,7 @@ footer p a:hover {
   }
 
   .contact-p-text {
-    font-size: 2.4rem;
+    font-size: 2.6rem;
     font-weight: 200;
     padding: 0;
   }
