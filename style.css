@@ -85,10 +85,9 @@ h1 {
   line-height: 6rem;
 }
 #welcome-section p {
-  font-size: 2.6rem;
+  font-size: 2rem;
   margin: 0;
   font-weight: 300;
-  font-style: italic;
   padding-top: 15px;
   color: var(--rojo, red);
 }
@@ -117,6 +116,7 @@ h2 {
   box-sizing: border-box;
   margin: 0 auto 25px auto;
   border-radius: 6px;
+  height: fit-content;
 }
 .project-container img {
   display: block;
@@ -312,15 +312,13 @@ footer p a:hover {
     justify-content: center;
   }
   .project-container {
-    max-width: 350px;
+    max-width: 300px;
   }
   #div-projects {
     display: flex;
     justify-content: space-between;
     flex-direction: row;
     flex-wrap: wrap;
-    max-width: 1024px;
-    margin: auto;
   }
 
   #contact-links a {
