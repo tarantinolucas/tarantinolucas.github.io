@@ -11,8 +11,21 @@
       href="./img/icono-lucas.ico"
       type="image/x-icon"
     />
+
+    <!-- GLIDE JS -->
+    <link
+      rel="stylesheet"
+      href="node_modules/@glidejs/glide/dist/css/glide.core.min.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="node_modules/@glidejs/glide/dist/css/glide.theme.min.css"
+    />
+
     <!-- CSS -->
     <link rel="stylesheet" href="style.css" />
+
     <!-- FONTS -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -50,111 +63,173 @@
       <!-- SECCION PROYECTOS -->
       <section id="projects">
         <h2>Estos son algunos de mis proyectos</h2>
+
         <div id="div-projects">
-          <!-- pagina de E&M -->
-          <div class="project-container">
-            <a href="https://www.eym.com.ar/" target="_blank">
-              <img
-                src="./img/eym-page.png"
-                alt="Imagen de portada de sitio web de E&M Electromedicina"
-              />
-              <p class="project-title">
-                Página de E&M Electromedicina - Página de producto
-              </p>
-            </a>
-          </div>
+          <!-- PRUEBAS GLIDE JS -->
+          <div class="glide">
+            <div class="glide__track" data-glide-el="track">
+              <ul class="glide__slides">
+                <!-- pagina de E&M -->
+                <li class="glide__slide">
+                  <div class="project-container">
+                    <a href="https://www.eym.com.ar/" target="_blank">
+                      <img
+                        src="./img/eym-page.png"
+                        alt="Imagen de portada de sitio web de E&M Electromedicina"
+                      />
+                      <p class="project-title">
+                        Página de E&M Electromedicina - Proyecto Freelance
+                      </p>
+                    </a>
+                  </div>
+                </li>
 
-          <!-- to do app -->
-          <div class="project-container">
-            <a href="./toDoApp/index.html" target="_blank">
-              <img
-                src="./img/toDoApp.png"
-                alt="Imagen de portada del proyecto To Do app"
-              />
-              <p class="project-title">App lista de tareas - Javascript</p>
-            </a>
-          </div>
+                <!-- to do app -->
+                <li class="glide__slide">
+                  <div class="project-container">
+                    <a href="./toDoApp/index.html" target="_blank">
+                      <img
+                        src="./img/toDoApp.png"
+                        alt="Imagen de portada del proyecto To Do app"
+                      />
+                      <p class="project-title">
+                        App lista de tareas - Javascript
+                      </p>
+                    </a>
+                  </div>
+                </li>
 
-          <!-- validador de palindromos -->
-          <div class="project-container">
-            <a href="palindromoChecker/index.html" target="_blank">
-              <img
-                src="img/palindromeChecker.png"
-                alt="Imagen de portada del proyecto validador de palindromos"
-              />
-              <p class="project-title">Validador de palindromos - Javascript</p>
-            </a>
-          </div>
+                <!-- validador de palindromos -->
+                <li class="glide__slide">
+                  <div class="project-container">
+                    <a href="palindromoChecker/index.html" target="_blank">
+                      <img
+                        src="img/palindromeChecker.png"
+                        alt="Imagen de portada del proyecto validador de palindromos"
+                      />
+                      <p class="project-title">
+                        Validador de palindromos - Javascript
+                      </p>
+                    </a>
+                  </div>
+                </li>
 
-          <!-- reproductor de musica -->
-          <div class="project-container">
-            <a href="./reproductorDeMusica/index.html" target="_blank">
-              <img
-                src="./img/musicPlayer.png"
-                alt="Imagen de portada de proyecto web reproductor de música."
-              />
-              <p class="project-title">Reproductor de música - Javascript</p>
-            </a>
-          </div>
-          <div class="project-container">
-            <a href="./contadorDeCalorias/index.html" target="_blank">
-              <img
-                src="./img/calorieCounter.jpg"
-                alt="Imagen de portada de proyecto web contador de calorias"
-              />
-              <p class="project-title">Contador de calorías - Javascript</p>
-            </a>
-          </div>
-          <div class="project-container">
-            <a href="./juegoDeRol/index.html" target="_blank">
-              <img
-                src="./img/rolPlayGame.png"
-                alt="Imagen de portada de Juego de rol Dragon Repeller"
-              />
-              <p class="project-title">Juego de Rol - Javascript</p>
-            </a>
-          </div>
-          <div class="project-container">
-            <a href="./webTributo/index.html" target="_blank">
-              <img
-                src="./img/tribute-page.png"
-                alt="Imagen de portada de pagina tributo"
-              />
-              <p class="project-title">Página tributo - HTML | CSS</p>
-            </a>
-          </div>
-          <div class="project-container">
-            <a href="./webFormEncuesta/index.html" target="_blank">
-              <img
-                src="./img/form-quiz.png"
-                alt="Imagen de portada de formulario de consulta"
-              />
-              <p class="project-title">
-                Página de diseño de formulario de consulta - HTML | CSS
-              </p>
-            </a>
-          </div>
-          <div class="project-container">
-            <a href="./webProducto/index.html" target="_blank">
-              <img
-                src="./img/product-page.png"
-                alt="Imagen de portada de pagina de producto"
-              />
-              <p class="project-title">
-                Página de venta de producto - HTML | CSS
-              </p>
-            </a>
-          </div>
-          <div class="project-container">
-            <a href="./webDocTecnica/index.html" target="_blank">
-              <img
-                src="./img/documentation-page.png"
-                alt="Imagen de portada de pagina de documentacion tecnica"
-              />
-              <p class="project-title">
-                Página de documentacion tecnica - HTML | CSS
-              </p>
-            </a>
+                <!-- reproductor de musica -->
+                <li class="glide__slide">
+                  <div class="project-container">
+                    <a href="./reproductorDeMusica/index.html" target="_blank">
+                      <img
+                        src="./img/musicPlayer.png"
+                        alt="Imagen de portada de proyecto web reproductor de música."
+                      />
+                      <p class="project-title">
+                        Reproductor de música - Javascript
+                      </p>
+                    </a>
+                  </div>
+                </li>
+
+                <!-- contador de calorias -->
+                <li class="glide__slide">
+                  <div class="project-container">
+                    <a href="./contadorDeCalorias/index.html" target="_blank">
+                      <img
+                        src="./img/calorieCounter.jpg"
+                        alt="Imagen de portada de proyecto web contador de calorias"
+                      />
+                      <p class="project-title">
+                        Contador de calorías - Javascript
+                      </p>
+                    </a>
+                  </div>
+                </li>
+
+                <!-- juego de rol -->
+                <li class="glide__slide">
+                  <div class="project-container">
+                    <a href="./juegoDeRol/index.html" target="_blank">
+                      <img
+                        src="./img/rolPlayGame.png"
+                        alt="Imagen de portada de Juego de rol Dragon Repeller"
+                      />
+                      <p class="project-title">Juego de Rol - Javascript</p>
+                    </a>
+                  </div>
+                </li>
+
+                <!-- pagina tributo -->
+                <li class="glide__slide">
+                  <div class="project-container">
+                    <a href="./webTributo/index.html" target="_blank">
+                      <img
+                        src="./img/tribute-page.png"
+                        alt="Imagen de portada de pagina tributo"
+                      />
+                      <p class="project-title">Página tributo - HTML | CSS</p>
+                    </a>
+                  </div>
+                </li>
+
+                <!-- diseño de formulario -->
+                <li class="glide__slide">
+                  <div class="project-container">
+                    <a href="./webFormEncuesta/index.html" target="_blank">
+                      <img
+                        src="./img/form-quiz.png"
+                        alt="Imagen de portada de formulario de consulta"
+                      />
+                      <p class="project-title">
+                        Página de diseño de formulario de consulta - HTML | CSS
+                      </p>
+                    </a>
+                  </div>
+                </li>
+
+                <!-- pagina de producto -->
+                <li class="glide__slide">
+                  <div class="project-container">
+                    <a href="./webProducto/index.html" target="_blank">
+                      <img
+                        src="./img/product-page.png"
+                        alt="Imagen de portada de pagina de producto"
+                      />
+                      <p class="project-title">
+                        Página de venta de producto - HTML | CSS
+                      </p>
+                    </a>
+                  </div>
+                </li>
+
+                <!-- documentacion tecnica -->
+                <li class="glide__slide">
+                  <div class="project-container">
+                    <a href="./webDocTecnica/index.html" target="_blank">
+                      <img
+                        src="./img/documentation-page.png"
+                        alt="Imagen de portada de pagina de documentacion tecnica"
+                      />
+                      <p class="project-title">
+                        Página de documentacion tecnica - HTML | CSS
+                      </p>
+                    </a>
+                  </div>
+                </li>
+              </ul>
+            </div>
+
+            <!-- GLIDE BULLETS -->
+            <div class="glide__bullets" data-glide-el="controls[nav]">
+              <button class="glide__bullet" data-glide-dir="=0"></button>
+              <button class="glide__bullet" data-glide-dir="=1"></button>
+              <button class="glide__bullet" data-glide-dir="=2"></button>
+              <button class="glide__bullet" data-glide-dir="=3"></button>
+              <button class="glide__bullet" data-glide-dir="=4"></button>
+              <button class="glide__bullet" data-glide-dir="=5"></button>
+              <button class="glide__bullet" data-glide-dir="=6"></button>
+              <button class="glide__bullet" data-glide-dir="=7"></button>
+              <button class="glide__bullet" data-glide-dir="=8"></button>
+              <button class="glide__bullet" data-glide-dir="=9"></button>
+            </div>
           </div>
         </div>
       </section>
@@ -216,6 +291,29 @@
         >.
       </p>
     </footer>
+    <!-- GLIDE JS-->
+    <script src="https://cdn.jsdelivr.net/npm/@glidejs/glide"></script>
+
+    <script>
+      new Glide(".glide", {
+        type: "carousel",
+        perView: 5,
+        autoplay: 2500,
+        rewind: true,
+        breakpoints: {
+          1400: {
+            perView: 4,
+          },
+          1000: {
+            perView: 3,
+          },
+          700: {
+            perView: 1,
+          },
+        },
+        hoverpause: true,
+      }).mount();
+    </script>
   </body>
 </html>
 
