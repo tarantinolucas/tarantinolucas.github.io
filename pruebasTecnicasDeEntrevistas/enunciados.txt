@@ -1,0 +1,24 @@
+# Prueba técnica N° 1:
+
+    # Prueba técnica para puesto de desarrollador frontend con .NET C# en una empresa de automatizacion argentina llamada Quantia S.A. (Fueron muy amables, recomendado).
+
+    # Fecha: 6/3/24
+
+    # Enunciado: 
+    
+    ## Elaborar una rutina o funcion para calcular el minimo costo de los baldes necesarios para cumplir con la cantidad (*) de enduido solicitada.
+
+    *La cantidad de enduido solicitada puede ser cualquier valor mayor a 0.
+
+    La entrada del algoritmos es la cantidad de enduido y la salida es el importe de los baldes en $.
+    
+    Datos de los tamaños de baldes y su costo:
+        • Balde de 7kg - Precio = $ 350.-
+        • Balde de 14kg - Precio = $ 650.-
+        • Balde de 28kg - Precio = $ 1200.-
+
+    Casos de uso de ejemplo: 
+
+    Cantidad de enduido deseada: 21kg -> Rta: $ 1000 (baldes de 1 x 7kg + 1 x 14kg)
+    Cantidad de enduido deseada: 25kg -> Rta: $ 1200 (balde de 1 x 28kg)
+    Cantidad de enduido deseada: 30kg -> Rta: $ 1550 (baldes de 1 x 7kg + 1 x 28kg)

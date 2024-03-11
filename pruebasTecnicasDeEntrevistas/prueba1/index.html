@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="../assets/numeroUno.ico"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Prueba técnica # 1</title>
+  </head>
+  <body>
+    <main>
+      <h1>Prueba técnica # 1</h1>
+      <h2>Puesto:</h2>
+      <p>
+        Desarrollador .NET C# para pyme Argentina dedicada a la automatización
+        con clientes internacionales.
+      </p>
+      <h2>Enunciado:</h2>
+      <ul>
+        <li>
+          Elaborar una rutina o funcion para calcular el minimo costo de los
+          baldes necesarios para cumplir con la cantidad (*) de enduido
+          solicitada.
+        </li>
+        <li>
+          La cantidad de enduido solicitada puede ser cualquier valor mayor a 0.
+        </li>
+        <li>
+          La entrada del algoritmos es la cantidad de enduido y la salida es el
+          importe de los baldes en $.
+        </li>
+        <li>
+          Datos de los tamaños de baldes y su costo:
+          <ul>
+            <li>Balde de 7kg - Precio = $ 350.-</li>
+            <li>Balde de 14kg - Precio = $ 650.-</li>
+            <li>Balde de 28kg - Precio = $ 1200.-</li>
+          </ul>
+        </li>
+        <li>
+          Casos de uso de ejemplo:
+          <ul>
+            <li>
+              Cantidad de enduido deseada: 21kg -> Rta: $1000 (baldes de 1 x 7kg
+              + 1 x 14kg)
+            </li>
+            <li>
+              Cantidad de enduido deseada: 25kg -> Rta: $ 1200 (balde de 1 x
+              28kg)
+            </li>
+            <li>
+              Cantidad de enduido deseada: 30kg -> Rta: $ 1550 (baldes de 1 x
+              7kg + 1 x 28kg)
+            </li>
+          </ul>
+        </li>
+      </ul>
+      <h2>Resolucion:</h2>
+      <p>
+        <b>Ingrese</b> la cantidad de <b>enduido</b> que usted
+        <b>necesita para su proyecto.</b>
+      </p>
+      <input type="number" name="" id="input" /><span>KG</span><br />
+      <button type="button" id="btn">Enviar</button>
+      <br /><br /><br />
+      <div id="result" class="hide show"></div>
+    </main>
+    <script src="./script.js"></script>
+  </body>
+</html>

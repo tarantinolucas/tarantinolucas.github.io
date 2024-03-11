@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap");
+
+:root {
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 62.5%;
+  --azul: #124076;
+  --verde: #7f9f80;
+  --amarillo: #f9e897;
+  --naranja: #ffc374;
+  --blanco: #ffffff;
+  --negro: #000000;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  background-color: var(--azul);
+  padding: 30px;
+  color: var(--blanco);
+  max-width: 768px;
+  margin: 10px auto 30px auto;
+  border-radius: 15px;
+  box-shadow: 5px 5px 0px 4px var(--verde);
+}
+
+h1 {
+  font-size: 3.5rem;
+  text-align: center;
+  text-decoration: underline;
+}
+
+h2 {
+  font-size: 2.5rem;
+  margin-top: 40px;
+}
+body > ul {
+  list-style: disc;
+}
+
+ul {
+  list-style: decimal;
+}
+
+li,
+p,
+span {
+  font-size: 1.6rem;
+  padding: 7px 0px;
+  font-weight: lighter;
+}
+
+span {
+  margin-left: 10px;
+}
+
+#result {
+  font-size: 1.8rem;
+  margin-top: 30px;
+  font-weight: lighter;
+}
+
+#result li {
+  font-size: 1.8rem;
+}
+
+.hide {
+  display: none;
+}
+
+.show {
+  display: block;
+}
+
+input,
+button {
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 1.6rem;
+  padding: 10px;
+}
+input::-webkit-inner-spin-button,
+input::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+button {
+  margin-top: 15px;
+  border-radius: 7px;
+  background-color: var(--verde);
+  border: solid 1px var(--negro);
+  cursor: pointer;
+  box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.75);
+}
+button:hover {
+  font-weight: 700;
+  background-color: var(--naranja);
+  transition: ease 2s;
+}
