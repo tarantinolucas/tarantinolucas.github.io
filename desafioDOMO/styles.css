@@ -159,12 +159,12 @@ main {
 
 .button-menu.close span {
   opacity: 1;
-  transform: rotate(45deg) translate(0px, 0px);
+  transform: rotate(45deg) translate(3px, -2px);
   background: #ffffff;
 }
 
 .button-menu.close span:nth-child(2) {
-  transform: rotate(-45deg) translate(-5px, 2px);
+  transform: rotate(-45deg) translate(-3px, 5px);
 }
 
 .button-menu.close span:nth-child(3) {
@@ -346,12 +346,13 @@ h5 {
 #clients-section p {
   text-align: center;
   font-weight: 800;
-  font-size: 0.7rem;
+  font-size: 0.9rem;
   letter-spacing: 0.1rem;
   margin-bottom: 20px;
 }
 #clients-section img {
   width: 70px;
+  margin: auto;
 }
 
 .glide__slide {
